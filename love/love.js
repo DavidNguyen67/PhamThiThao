@@ -2,7 +2,7 @@
  * @Author         : David Nguyễn <davidnguyen67dev@gmail.com>
  * @CreatedDate    : 2024-07-24 21:39:00
  * @LastEditors    : David Nguyễn <davidnguyen67dev@gmail.com>
- * @LastEditDate   : 2024-07-24 22:09:33
+ * @LastEditDate   : 2024-07-24 22:12:18
  * @FilePath       : love.js
  * @CopyRight      : Con chù chù 🥴🥴
  **/
@@ -144,7 +144,7 @@ function funcTimeoutLetter() {
 // chữ của thư bạn muốn gửi
 let indexTextContent = 0;
 let textLetterContent = document.querySelector('.contentLetter');
-let textLetterP = `Mày ơi? Mày mặc váy vào đi, để t đón đi chill, đường phố Hà Lội 😃\nNếu như tôi gõ cửa thì, e mở của nha =))`;
+let textLetterP = `Mày ơi? Mày mặc váy vào đi, để t đón đi chill, đường phố Hà Lội 😃\nNếu như to gõ cửa thì, e mở của nha =))`;
 let timoutTextLetterContent;
 function textCharLetterContent() {
   if (indexTextContent < textLetterP.length) {
