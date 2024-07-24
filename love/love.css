@@ -585,7 +585,7 @@ body {
 }
 .boxLetter .formLetter {
   position: relative;
-  width: 600px;
+  width: 543pxtextLetter;
   height: 350px;
   background-color: #ffebeb;
   border-radius: 20px;
@@ -668,11 +668,11 @@ body {
 }
 .textLetter {
   position: relative;
-  width: 60%;
   flex-direction: column;
   display: flex;
   align-items: center;
   user-select: none;
+  text-align: center;
 }
 .textLetter h2 {
   margin-top: 20px;
@@ -685,6 +685,7 @@ body {
   padding: 0px 10px;
   margin-top: 10px;
   font-family: 'Dancing Script', cursive;
+  width: 400px;
 }
 .fa-xmark {
   position: absolute;
